@@ -3,7 +3,7 @@ import dotenv from "dotenv";
 import cors from "cors";
 import connectDB from "./config/db.js";
 import billRoutes from "./routes/billRoutes.js";
-import runUpdateAdmin from "./UpdateAdmin.js";
+import runUpdateAdmin from "./updateAdmin.js";
 
 await runUpdateAdmin(); // <--- This runs first
 
